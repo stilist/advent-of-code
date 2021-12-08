@@ -6,4 +6,4 @@
 4. [2⁄2](https://adventofcode.com/2021/day/4), PHP
 5. [0⁄2](https://adventofcode.com/2021/day/5)
 6. [0⁄2](https://adventofcode.com/2021/day/6)
-7. [1⁄2](https://adventofcode.com/2021/day/7), Ruby
+7. [2⁄2](https://adventofcode.com/2021/day/7), Ruby
