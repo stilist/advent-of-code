@@ -3,5 +3,7 @@ def raw_data
 
   input_type = ARGV.first == "test" ? "test-data" : "data"
   day = File.basename($0, '.rb')
-  @raw_data = File.read("#{day}.#{input_type}").each_line
+  filename = "#{day}.#{input_type}"
+  path = File.expand_path(File.join(File.dirname($0), filename))
+  @raw_data = File.read(path)
 end
