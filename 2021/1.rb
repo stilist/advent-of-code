@@ -1,9 +1,8 @@
 # @see https://adventofcode.com/2021/day/1
 
-input_file = ARGV.first || "input"
-input_filename = "1-#{input_file}.txt"
+require_relative '../lib/raw_data'
 
-depths = File.read(input_filename).each_line.map(&:to_i)
+depths = raw_data.map(&:to_i)
 
 def increases(depths = [], window_size = 1)
   window = depths.first(window_size)
